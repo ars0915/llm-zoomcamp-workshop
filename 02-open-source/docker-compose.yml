@@ -16,7 +16,7 @@ services:
     privileged: true
     container_name: ollama
     volumes:
-      - ollama:/root/.ollama
+      - ./ollama_files:/root/.ollama
     ports:
       - "11434:11434"
 
